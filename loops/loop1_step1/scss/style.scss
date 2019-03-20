@@ -1,0 +1,65 @@
+$colorBlue: #799acd;
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  background-color: $colorBlue;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 30px;
+  background: red;
+  display: flex;
+  width: 70vw;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 10px;
+
+  article {
+    width: 200px;
+    background:red;
+    text-align: center;
+
+    img {
+
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      letter-spacing: 0.5rem;
+      text-transform: uppercase;
+      color: $colorBlue;
+    }
+
+    p {
+      font-size: 0.85rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+      color: $colorBlue;
+
+      &::before {
+        font-size: 0.9rem;
+        content:'$';
+
+      }
+
+      &::after {
+        font-size: 1.1rem;
+        content:'/ month';
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #799acd;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+section {
+  padding: 30px;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70vw;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+section article {
+  width: 200px;
+  background: red;
+  text-align: center;
+}
+
+section article h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  color: #799acd;
+}
+
+section article p {
+  font-size: 0.85rem;
+}
+
+section article h3 {
+  font-size: 2rem;
+  color: #799acd;
+}
+
+section article h3::before {
+  font-size: 0.9rem;
+  content: '$';
+}
+
+section article h3::after {
+  font-size: 1.1rem;
+  content: '/ month';
+}
