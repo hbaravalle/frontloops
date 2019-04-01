@@ -97,13 +97,16 @@ article h3 {
 }
 
 article h3::before {
+  content: '$';
+  position: relative;
+  top: -9px;
+  right: 4px;
   font-size: 0.9rem;
   font-weight: normal;
-  content: '$';
 }
 
 article h3::after {
+  content: '/ month';
   font-size: 1.1rem;
   font-weight: normal;
-  content: '/ month';
 }

@@ -72,15 +72,18 @@ article {
     margin-bottom: 0;
 
     &::before {
+      content: '$';
+      position: relative;
+      top: -9px;
+      right: 4px;
       font-size: 0.9rem;
       font-weight: normal;
-      content: '$';
     }
 
     &::after {
+      content: '/ month';
       font-size: 1.1rem;
       font-weight: normal;
-      content: '/ month';
     }
   }
 }
