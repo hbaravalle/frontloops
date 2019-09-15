@@ -4,8 +4,7 @@ body {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: #799acd;
-}
+  background-color: #799acd; }
 
 main {
   width: 100vw;
@@ -18,8 +17,7 @@ main {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .__wrapper-cards {
   margin: 100px 40px;
@@ -36,8 +34,7 @@ main {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 article {
   min-height: 100%;
@@ -60,53 +57,38 @@ article {
   cursor: pointer;
   -webkit-transition: background-color 0.1s ease-in-out;
   -o-transition: background-color 0.1s ease-in-out;
-  transition: background-color 0.1s ease-in-out;
-}
-
-article:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-}
-
-article img {
-  height: 70px;
-  margin-bottom: 35px;
-}
-
-article h2 {
-  color: #4e66c0;
-  font-size: 1.5rem;
-  font-weight: bold;
-  letter-spacing: 0.4rem;
-  text-transform: uppercase;
-}
-
-article p {
-  width: 59%;
-  margin: 15px 0;
-  font-size: 0.85rem;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-}
-
-article h3 {
-  color: #4e66c0;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-article h3::before {
-  content: '$';
-  position: relative;
-  top: -9px;
-  right: 4px;
-  font-size: 0.9rem;
-  font-weight: normal;
-}
-
-article h3::after {
-  content: '/ month';
-  font-size: 1.1rem;
-  font-weight: normal;
-}
+  transition: background-color 0.1s ease-in-out; }
+  article:hover {
+    background-color: rgba(0, 0, 0, 0.04); }
+  article img {
+    height: 70px;
+    margin-bottom: 35px; }
+  article h2 {
+    color: #4e66c0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase; }
+  article p {
+    width: 59%;
+    margin: 15px 0;
+    font-size: 0.85rem;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
+  article h3 {
+    color: #4e66c0;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0; }
+    article h3::before {
+      content: '$';
+      position: relative;
+      top: -9px;
+      right: 4px;
+      font-size: 0.9rem;
+      font-weight: normal; }
+    article h3::after {
+      content: '/ month';
+      font-size: 1.1rem;
+      font-weight: normal; }
